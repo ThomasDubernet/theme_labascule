@@ -21,4 +21,6 @@ Après download du dossier et dezippage
   
 8. Mise à jour de la branche de suivi si **déjà créer** ```git fetch``` pour observer les changements.  
   
-9. Pour pousser les changements sur la branche de suivi ```git pull```  
+9. Pour pousser les changements sur la branche de suivi ```git pull``` 
+
+@La Bascule 2019-2020
