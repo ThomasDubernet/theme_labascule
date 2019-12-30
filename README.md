@@ -17,7 +17,7 @@ Après download du dossier et dezippage
   
 6. Observer les dernières updates ```git fetch origin```  
   
-7. Création de la branche de suivi **version2** ```git branch --track dev origin/dev```  
+7. Création de la branche de suivi **dev** ```git branch --track dev origin/dev```  
   
 8. Mise à jour de la branche de suivi si **déjà créer** ```git fetch``` pour observer les changements.  
   

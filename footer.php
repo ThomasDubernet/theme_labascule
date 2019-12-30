@@ -4,7 +4,7 @@
     </article>
     <aside class="col-md-3">
         <!-- appelle sidebar.php -->
-        <?php get_sidebar();?>
+        <?php //get_sidebar();?>
     </aside>
 </section>
 
