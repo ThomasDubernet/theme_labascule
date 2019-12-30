@@ -1,11 +1,47 @@
+<?php
+
+$has_footer_1 = is_active_sidebar( 'footer-1' );
+$has_footer_2 = is_active_sidebar( 'footer-2' );
+$has_footer_3 = is_active_sidebar( 'footer-3' );
+$has_footer_4 = is_active_sidebar( 'footer-4' ); ?>
+
+
 <section class="row">
-    <article class="col-md-9">
-                
-    </article>
+    
+  <?php if ( $has_footer_1 || $has_footer_2 || $has_footer_3 || $has_footer_4) { ?>
+							
     <aside class="col-md-3">
         <!-- appelle sidebar.php -->
-        <?php //get_sidebar();?>
+        <?php if ( $has_footer_1 ) { ?>
+
+							<div class="footer-widgets">
+								<?php dynamic_sidebar( 'footer-1' ); ?>
+							</div>
+
+						<?php } ?>
+						<?php if ( $has_footer_2 ) { ?>
+
+							<div class="footer-widgets">
+								<?php dynamic_sidebar( 'footer-2' ); ?>
+							</div>
+
+						<?php } ?>
+						<?php if ( $has_footer_3 ) { ?>
+
+							<div class="footer-widgets">
+								<?php dynamic_sidebar( 'footer-3' ); ?>
+							</div>
+
+						<?php } ?>
+						<?php if ( $has_footer_4 ) { ?>
+
+							<div class="footer-widgets">
+								<?php dynamic_sidebar( 'footer-4' ); ?>
+							</div>
+
+						<?php } ?>
     </aside>
+    <?php } ?>
 </section>
 
 
@@ -14,6 +50,5 @@
     <?php get_sidebar('footer');?>
 </footer>
 
-<?php wp_footer();?>
 </body>
 </html>
