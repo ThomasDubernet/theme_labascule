@@ -9,23 +9,60 @@ get_header();?>
 <!-- Page est le template destiné à afficher la page le concept -->
 <!-- content -->
 
+<div class="container">
 
-<div>
-    <div class="row">
-        <div class="col-md-6">
-            <img src="" alt="img_nous_rejoindre">
+    <div class="background-img">
+        <div class="row">
+            <div class="col-6">
+                <p>"Etre au service de tous ceux qui s'engagent pour un futur souhaitable. Parce que l'utopie est devenue une obligation."</p>
+                <p>Jean-Pierre Dupond</p>
+            </div>
+
+            <div class="col-6">
+                <img src="" alt="logo">
+            </div>
         </div>
+    </div>
 
-        <div class="col-md-6">
-            <h2>La <span>bascule</span>, c'est quoi ?</h2>
+    <div class="row text-center">
+        <div class="m-auto col-4">
+            <h3>Une démarche personelle d'engagement</h3>
+        </div>
+    </div>
 
-            <p>Je me mets mon énergie <span>au service des projets</span> qui vont amplifier la bascule démocratique, écologique et solidaire. Je participe à la <span>reprise en main par le citoyen du pouvoir d'agir et de décider</span>. Je contribue à la mise en oeuvre et à l'incarnation de solutions respectueuses de la ,ature et de l'Homme. <span>J'ancre mon engagement dans une dynamique collective.</span></p>
-            <p><span>2tudiant, retraité, salarié, chômeur, artiste, ouvrier, scientifique ou professeur, citoyen en quête de sens et d'action</span>, je peux devenir acteur de cet élan collectif qui traverse la société en rejoignant la Bascule.</p>
+    <div class="row">
+        <div class="col-6">
+            <h3>Faire la bascule, c'est...</h3>
+            <p>une démarche personelle d'engagement, pour mener des actions avec ou sans nous</p>
 
             <div class="row pt-3">
-                <a href="" class="btn">A temps plein</a>
-                <a href="" class="btn">Sur mon temps libre</a>
+                <a href="" class="btn">Plonger dans l'Archipel</a>
             </div>
+
+        </div>
+        <div class="col-6 background-img">
+            <p>"S'engager dans une ou plusieurs de ces actions c'est faire la Bascule! "</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <h3>Tout le monde peut devenir acteur de la Bascule!</h3>
+            <p>Réveillons le citoyens qui sommeille en nous.</p>
+
+            <div class="row pt-3">
+                <a href="" class="btn">Passer à l'action</a>
+            </div>
+
+        </div>
+        <div class="col-6">
+            <p>Liste de 5 exemples
+            Relier son club de loisir à l'association zéro déchet du coin
+            Etre en relai de communication des actions de son territoire auprès de ses proches, son entreprise, son école, ses réseaux sociaux.
+            Participer aux actions qui existent sur mon territoire
+            Rejoindre un groupe local d'une association qui me tient à coeur et participer à la connecter à d'autres initiatives
+            Organiser un repas de rencontre pour que différents porteurs de projets de ma connaissance se rencontrent
+            Signaler les lieux vacants, à réhabiliter pour devenir des lieux de bascule </p>
         </div>
     </div>
 </div>
