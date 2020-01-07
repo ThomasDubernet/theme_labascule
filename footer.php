@@ -50,5 +50,6 @@ $has_footer_4 = is_active_sidebar( 'footer-4' ); ?>
     <?php get_sidebar('footer');?>
 </footer>
 
+<script src="https://kit.fontawesome.com/b170d57b75.js" crossorigin="anonymous"></script>
 </body>
 </html>

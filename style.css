@@ -1,0 +1,12 @@
+.bc{
+    color: #83B4FF;
+}
+.bf{
+    color: #1F2650;
+}
+
+.bf-under{
+    text-decoration: underline;
+    color: #1F2650;
+    font-weight: 700;
+}

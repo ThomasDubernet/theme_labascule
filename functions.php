@@ -1,5 +1,5 @@
 <?php
-define('LABASC_VERSION', '1.0.1');
+define('LABASC_VERSION', '1.0.5');
 require_once('wp_bootstrap_navwalker.php');
 
 // chargement côté front-end
